@@ -13,6 +13,7 @@
 		8FBFD1C31FFEE2E2008833E7 /* Doit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFD1C11FFEE2E2008833E7 /* Doit.xcdatamodeld */; };
 		8FBFD1C51FFEE2E2008833E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFD1C41FFEE2E2008833E7 /* Assets.xcassets */; };
 		8FBFD1C81FFEE2E2008833E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFD1C61FFEE2E2008833E7 /* LaunchScreen.storyboard */; };
+		8FBFD1D01FFEE79B008833E7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFD1CF1FFEE79B008833E7 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8FBFD1C41FFEE2E2008833E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FBFD1C71FFEE2E2008833E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FBFD1C91FFEE2E2008833E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBFD1CF1FFEE79B008833E7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				8FBFD1BA1FFEE2E2008833E7 /* AppDelegate.swift */,
 				8FBFD1BC1FFEE2E2008833E7 /* ViewController.swift */,
+				8FBFD1CF1FFEE79B008833E7 /* Task.swift */,
 				8FBFD1BE1FFEE2E2008833E7 /* Main.storyboard */,
 				8FBFD1C41FFEE2E2008833E7 /* Assets.xcassets */,
 				8FBFD1C61FFEE2E2008833E7 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBFD1D01FFEE79B008833E7 /* Task.swift in Sources */,
 				8FBFD1BD1FFEE2E2008833E7 /* ViewController.swift in Sources */,
 				8FBFD1BB1FFEE2E2008833E7 /* AppDelegate.swift in Sources */,
 				8FBFD1C31FFEE2E2008833E7 /* Doit.xcdatamodeld in Sources */,
