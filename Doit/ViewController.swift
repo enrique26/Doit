@@ -33,12 +33,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let cell=UITableViewCell()
         let task=tasks[indexPath.row];
         if(task.importat==true){
-            cell.textLabel?.text="! \(task.name)"
+            cell.textLabel?.text="❗️\(task.name)"
         }else{
             cell.textLabel?.text=task.name
         }
         
-        return cell;!
+        return cell;
     }
 
     func makeTask()->[Task]{
