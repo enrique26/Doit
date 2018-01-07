@@ -13,6 +13,7 @@ class CreateTaskViewController: UIViewController {
     @IBOutlet var taskNameField: UITextField!
     @IBOutlet var importatnSwitch: UISwitch!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,6 +26,17 @@ class CreateTaskViewController: UIViewController {
     }
     
     @IBAction func addButton(_ sender: Any) {
+        
+        let context=(UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        //create task
+        let task=Task(context: context)
+        task.name=taskNameField.text!;
+        task.important=importatnSwitch.isOn;
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        //back to the previous viewcontroller navigation
+        navigationController?.popViewController(animated: true);
         
     }
 
